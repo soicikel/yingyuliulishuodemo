@@ -7,5 +7,6 @@
     <string name="get_weather">获取天气</string>
     <string name="goto_weather_activity">查询天气</string>
     <string name="goto_chuangguan">闯关</string>
+    <string name="goto_netimage">加载网络图片</string>
 
 </resources>

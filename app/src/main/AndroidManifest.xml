@@ -3,6 +3,7 @@
     package="rui.yyllsdemo" >
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -23,6 +24,8 @@
             android:screenOrientation="portrait">
         </activity>
         <activity android:name=".AnimationActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NetImageActivity"
             android:screenOrientation="portrait"/>
     </application>
 
