@@ -6,5 +6,6 @@
     <string name="action_settings">Settings</string>
     <string name="get_weather">获取天气</string>
     <string name="goto_weather_activity">查询天气</string>
+    <string name="goto_chuangguan">闯关</string>
 
 </resources>

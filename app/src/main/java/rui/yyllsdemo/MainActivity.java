@@ -22,6 +22,13 @@ public class MainActivity extends ActionBarActivity {
                 startActivity(new Intent(MainActivity.this, WeatherActivity.class));
             }
         });
+
+        findViewById(R.id.goto_animation_btn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, AnimationActivity.class));
+            }
+        });
     }
 
 
